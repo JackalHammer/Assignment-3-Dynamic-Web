@@ -1,0 +1,106 @@
+* {
+    box-sizing: border-box;
+}
+
+.grid-parent {
+    display: block;
+    margin: auto;
+}
+
+body {
+    margin: 12%;
+    margin-top: 9%;
+    background-image: url(../img/mask.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    align-content: center;
+}
+
+.logo {
+    display: block;
+    margin: auto;
+    width: 100%;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    transform: rotate(3deg);
+}
+
+h1 {
+    color: white;
+}
+
+h2 {
+    font-family: 'Oswald', sans-serif;
+    color: gold;
+    font-size: 60px;
+    text-align: center;
+    text-shadow: 5px 5px #558ABB;
+
+}
+
+h3 {
+    font-family: 'Oswald', sans-serif;
+    color: white;
+    font-size: 30px;
+    text-align: center;
+    text-shadow: 2px 2px black;
+    margin-bottom: 100px;
+
+}
+
+div {}
+
+#results {
+    margin: auto;
+}
+
+
+div:nth-child(odd) {
+    text-align: left;
+    margin-right: 20%;
+
+}
+
+div:nth-child(even) {
+    text-align: right;
+    margin-left: 20%;
+}
+
+.like {
+    font-size: 30px;
+    font-family: 'Oswald', sans-serif;
+    min-height: 200px;
+    align-content: center;
+    margin-bottom: 20px;
+    padding: 25px;
+    border-width: 15px;
+    border-style: solid;
+    border-color: black;
+}
+
+.white {
+    background-color: rgba(255, 255, 255, 0.8);
+}
+
+.green {
+    background-color: rgba(92, 224, 85, 0.8);
+}
+
+.blue {
+    background-color: rgba(94, 176, 224, 0.8);
+}
+
+.purple {
+    background-color: rgba(142, 49, 214, 0.8);
+    color: white;
+}
+
+.orange {
+    color: yellow;
+    background-image:
+        radial-gradient(rgba(255, 255, 255, .8), rgba(229, 130, 9, 0.9));
+    text-shadow: 2px 2px darkorange;
+    font-size: 35px;
+
+}
